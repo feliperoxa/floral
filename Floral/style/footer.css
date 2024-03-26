@@ -1,0 +1,49 @@
+.section_quarta{
+    background-color: var(--cor-secundaria);
+    font-size: 13px;
+    font-size: var(--fonte_principal);
+    text-align: center;
+    padding: 0.1em 0 ;
+}
+
+.contato{
+    font-size: 13px;
+    margin: 1em 0;
+    font-weight: 500;
+    font-size: var(--fonte_principal);
+}
+
+.rede_social{
+    justify-items: space-between;
+    font-weight: 700;
+}
+
+.logo_rede_social{
+    margin-right: 10px;
+}
+
+@media screen and (min-width: 820px) {
+
+    .section_quarta{
+        font-size: 26px;
+        margin: 4em 2em 2em 2em;
+        border-radius: 20px;
+    }
+
+    .logo_rede_social{
+        width: 2em;
+        height: auto;
+    }
+
+
+}
+
+
+@media screen and (min-width: 1500px) {
+
+    .section_quarta{
+    margin: 4em 8em 2em 8em;
+    }
+
+}
+

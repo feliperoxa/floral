@@ -1,0 +1,63 @@
+body{
+    font-size: 18px;
+    text-align: center;
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+}
+
+.section-login{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.section-box-login{
+    display: flex;
+    
+    margin: 10em 2em ;
+    border-radius: 30px;
+    background-color: var(--cor-secundaria);
+}
+
+.box-02{
+    
+    align-items: center;
+}
+
+.logo-login{
+    width: 20%;
+}
+
+.logo-login-rede-social{
+    width: 120%;
+}
+.box{
+    margin: 0em 1em;
+    padding: 1em;
+    
+}
+
+
+.linha{
+    display: flex;
+    margin: 2em 0em;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+
+
+.texto{
+    padding: 0 0.5em;
+}
+
+.entrada-texto{
+    padding: 1.5em 7em;
+    border-radius: 25px;
+}
+
+.link_login{
+    text-decoration: none;
+    color: black;
+}

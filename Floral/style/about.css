@@ -1,0 +1,48 @@
+@import url(./header.css);
+
+
+
+.sobre_nos{
+    margin: 2em;
+}
+
+.titulo_principal{
+    background-color: var(--cor-secundaria);
+    padding: 0.5em 0em;
+    margin: 1em 3em;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.texto_principal, .descricao_sobre_texto{
+    display: flex;
+    margin: 2em 1em;
+    text-align: justify;
+    font-family: var(--fonte-principal);
+    font-size: 21px;
+    font-weight: 500;
+    color: white;
+}
+
+
+@media screen and (min-width: 820px) {
+    .descricao_sobre_texto, .texto_principal{
+        margin: 2em 5em;
+    }
+
+    .descricao_sobre_texto{
+        color: black;
+    }
+
+
+}
+
+
+@media screen and (min-width: 1500px) {
+    .descricao_sobre_texto, .texto_principal{
+        margin: 2em 10em;
+    }
+
+
+
+}

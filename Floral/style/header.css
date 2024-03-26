@@ -1,0 +1,71 @@
+
+.header{
+    background-color: var(--cor-secundaria);
+   
+}
+
+.navegacao{
+    display: flex;
+    gap: 2em;
+}
+
+.link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    
+}
+
+.botao_carrinho, .botao_login{
+    display: none;
+}
+
+.link_link{
+    text-decoration: none;
+    color: black;
+    font-family: var(--fonte-principal);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.logo{
+    margin: 0.3em;
+}
+
+
+@media screen and (min-width: 820px) {
+
+    
+    
+    .navegacao{
+        justify-content: center;
+
+    }
+
+    .header{
+        padding: 1em;
+
+    }
+
+    .botao_carrinho, .botao_login {
+       display: block;
+       font-size: 25px;
+    }
+
+    .link_link{
+        font-size: 25px;
+    }
+
+    .logo{
+        width: 90%;
+    }
+
+    .navegacao{
+        gap: 10em;
+    }
+    .link_sobre_nos   {
+        display: none;
+    } 
+
+}
